@@ -5,7 +5,7 @@ session_start();
 date_default_timezone_set("Europe/London");
 
 try {
-    $con = new PDO("mysql:dbname=4AM;host=localhost", "root", "");
+    $con = new PDO("mysql:dbname=4AM1;host=localhost", "root", "");
     $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
 }
 catch (PDOException $e) {
